@@ -1,0 +1,34 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--blue-dark);
+  border-radius: 9999px;
+
+  width: 1.09rem;
+  height: 1.09rem;
+
+  transition: 0.1s;
+}
+
+.checkbox > img {
+  width: .6rem;
+  height: .6rem;
+}
+
+.checkbox:hover {
+  background: #1E6F9F20;
+  cursor: pointer;
+}
+
+.checked {
+  background: var(--purple-dark);
+  border: 1px solid var(--purple-dark);
+}
+
+.checked:hover {
+  background: var(--purple);
+  border: 1px solid var(--purple);
+  cursor: pointer;
+}

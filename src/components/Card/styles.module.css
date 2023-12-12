@@ -1,0 +1,45 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 1rem;
+  background: var(--grey-500);
+  border: 1px solid var(--grey-400);
+  border-radius: 8px;
+}
+
+.container:hover {
+  cursor: pointer;
+}
+
+.text {
+  width: 100%;
+  color: var(--grey-100);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.checkedText {
+  text-decoration: line-through;
+  color: var(--grey-300);
+}
+
+.container > button {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s;
+  padding: 0;
+}
+
+.container > button:hover {
+  cursor: pointer;
+}
+
+.container > button:hover path {
+  fill: var(--danger);
+}
